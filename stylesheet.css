@@ -1,0 +1,14 @@
+#container {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.square {
+display: grid;
+background-color: grey;
+padding-bottom: 100%;
+}
